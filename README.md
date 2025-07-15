@@ -17,7 +17,7 @@ A vibe coded project for creating readme files for future projects. Feel free to
 
 ## 🎯 Purpose
 
-I was tired of not having a good solution on creating good readme´s for my projects, so I made a tool for just that. Nothing more.
+I was tired of not having a good solution for creating good readmes for my projects, so I made a tool for just that. Nothing more.
 
 ## ✨ Features
 
