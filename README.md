@@ -1,61 +1,102 @@
-# Shadcn-UI Template Usage Instructions
+<div align="center">
 
-## technology stack
+# ReadMyGit
 
-This project is built with:
+A vibe coded project for creating readme files for future projects. Feel free to use it, clone it or fork it!
 
-- Vite
+[![GitHub stars](https://img.shields.io/github/stars/Adrianhammer/readme?style=social)](https://github.com/Adrianhammer/readme/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Adrianhammer/readme?style=social)](https://github.com/Adrianhammer/readme/network)
+[![GitHub issues](https://img.shields.io/github/issues/Adrianhammer/readme)](https://github.com/Adrianhammer/readme/issues)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+[Demo](https://readmygit.vercel.app/) • [Report Bug](https://github.com/Adrianhammer/readme/issues) • [Request Feature](https://github.com/Adrianhammer/readme/issues)
+
+</div>
+
+---
+
+## 🎯 Purpose
+
+I was tired of not having a good solution on creating good readme´s for my projects, so I made a tool for just that. Nothing more.
+
+## ✨ Features
+
+- Paste your github repo url (repo must be public) or write in info manually
+- Choose between 4 templates: Modern, Minimal, Detailed or Creative
+- Live preview of markdown as you edit
+- Copy and paste right into your solution. Easy!
+
+## 🛠️ Built With
+
 - TypeScript
-- React
+- Vite
 - shadcn-ui
 - Tailwind CSS
+- React
 
-All shadcn/ui components have been downloaded under `@/components/ui`.
 
-## File Structure
 
-- `index.html` - HTML entry point
-- `vite.config.ts` - Vite configuration file
-- `tailwind.config.js` - Tailwind CSS configuration file
-- `package.json` - NPM dependencies and scripts
-- `src/app.tsx` - Root component of the project
-- `src/main.tsx` - Project entry point
-- `src/index.css` - Existing CSS configuration
+## 🚀 Getting Started
 
-## Components
+### Installation
 
-- All shadcn/ui components are pre-downloaded and available at `@/components/ui`
+### Prerequisites
 
-## Styling
+- pnpm 
 
-- Add global styles to `src/index.css` or create new CSS files as needed
-- Use Tailwind classes for styling components
-
-## Development
-
-- Import components from `@/components/ui` in your React components
-- Customize the UI by modifying the Tailwind configuration
-
-## Note
-
-The `@/` path alias points to the `src/` directory
-
-# Commands
-
-**Install Dependencies**
-
-```shell
+```bash
+git clone https://github.com/Adrianhammer/readme
+cd readme
+```
+**Install dependencies**
+```bash
 pnpm i
 ```
 
 **Start Preview**
-
-```shell
+```bash
 pnpm run dev
-```
+````
 
-**To build**
-
-```shell
+**Build project**
+```bash
 pnpm run build
 ```
+
+## 📖 Usage
+
+Paste your github repo url or fill out details manually. Simple!
+
+
+
+## 🗺️ Roadmap
+
+- [ ] Might add more templates in the future
+- [ ] More customizability
+
+
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 👤 Author
+
+**Adrianhammer**
+
+- GitHub: [@readme](https://github.com/Adrianhammer/readme)
+- Email: adrian10hammer@gmail.com
+
+
+
+## 🙏 Acknowledgments
+
+Created with mgx.dev
+
+
+
+---
+
+<div align="center">
+Made with ❤️ and ☕ by Adrianhammer
+</div>
